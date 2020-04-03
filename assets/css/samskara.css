@@ -29,7 +29,7 @@
 }
 
 .btn {
-  font-family: 'Poppins',sans-serif!important;
+  font-family: 'Manjari',sans-serif!important;
 }
 
 ::-moz-selection {
@@ -9412,7 +9412,7 @@ button.close {
 
 .navbar-brand {
   font-weight: 700;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Manjari',sans-serif;
   color: #007bff!important;
 }
 
@@ -9425,7 +9425,7 @@ button.close {
 }
 
 .nav-link {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Manjari',sans-serif;
   font-weight: 600;
   font-size: .9rem;
 }
@@ -9433,7 +9433,7 @@ button.close {
 .footer-logo,.home-post .post-title {
   font-weight: 700;
   font-size: 2rem;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Manjari',sans-serif;
   color: #fff!important;
 }
 
@@ -9445,7 +9445,7 @@ button.close {
   font-size: .6rem;
   padding-top: 5px;
   opacity: .6;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Manjari',sans-serif;
 }
 
 .credits-link,.single-article .article-cover .inner .post-meta a {
@@ -9515,7 +9515,7 @@ button.close {
 
 .subscribe-section .subscribe-heading {
   font-weight: 600;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Manjari',sans-serif;
   font-size: 2rem;
 }
 
@@ -9552,7 +9552,7 @@ button.close {
 
 .admin-section .admin-name {
   font-weight: 600;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Manjari',sans-serif;
   font-size: 1.5rem;
   margin-top: 10px;
   margin-bottom: 0;
@@ -9655,7 +9655,7 @@ button.close {
 
 .single-article .inner .post-title {
   font-weight: 700;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Manjari',sans-serif;
 }
 
 .single-article .inner .post-meta {
@@ -9682,11 +9682,11 @@ button.close {
   padding-left: 5em;
   padding-right: 5em;
   font-size: 1.2rem;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Manjari',sans-serif;
 }
 
 .single-article .article-content .author-meta .inner .author-info .author-name,.single-article .article-content .post-content h1,.single-article .article-content .post-content h2,.single-article .article-content .post-content h3,.single-article .article-content .post-content h4,.single-article .article-content .post-content h5,.single-article .article-content .post-content h6 {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Manjari',sans-serif;
   font-weight: 600;
 }
 
