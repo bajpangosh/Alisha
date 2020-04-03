@@ -1,14 +1,14 @@
 {
-	"name": "samskara",
-	"description": "Traditional Blog Layout Ghost Theme.",
+	"name": "Alisha",
+	"description": "News & Magazine Ghost CMS Theme.",
 	"demo": "https://vasanthdeveloper.github.io/samskara",
 	"version": "1.0.0",
 	"license": "CC-BY-3.0",
 	"bugs": "https://github.com/vasanthdeveloper/samskara/issues",
 	"author": {
-		"name": "Vasanth Srivatsa",
-		"email": "vasanthdevelopers@gmail.com",
-		"url": "https://vasanthdeveloper.com"
+		"name": "Bajpan Gosh",
+		"email": "bajpangosh@gmail.com",
+		"url": "https://kloudboy.com"
 	},
 	"engines": {
 			"ghost-api": "v3"
@@ -24,12 +24,12 @@
 		"ghost",
 		"theme",
 		"ghost-theme",
-		"vasanthdeveloper",
-		"vasanth-srivatsa"
+		"bajpangosh",
+		"kloudboy"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/vasanthdeveloper/samskara.git"
+		"url": "https://github.com/bajpangosh/Alisha-Ghost-CMS-Theme.git"
 	},
 	"scripts": {
 		"start": "gulp",
