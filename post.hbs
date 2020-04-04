@@ -15,7 +15,7 @@ into the {body} of the default.hbs template --}}
 			<div class="container">
 				<div class="controls">
 					<h1 class="post-title">{{title}}</h1>
-
+<progress class="reading-progress-bar"></progress>
 					<p class="post-meta">{{#primary_author}}<a href="{{url absolute='true'}}">{{name}}</a>{{/primary_author}} on {{#primary_tag}}<a href="{{url absolute='true'}}">{{name}}</a>{{/primary_tag}} | {{date published_at format="DD MMM YYYY"}} | {{reading_time}} </p>
 				</div>
 			</div>
@@ -96,6 +96,38 @@ into the {body} of the default.hbs template --}}
 			return "https://" + DISQUS_USERNAME + ".disqus.com/embed.js";
 		}
 	}
+
+	const readingProgress = (contentArea, progressBar) => {
+	    const content = document.querySelector(contentArea);
+	    const progress = document.querySelector(progressBar);
+
+	    const frameListening = () => {
+	        const contentBox = content.getBoundingClientRect();
+	        const midPoint = window.innerHeight / 2;
+	        const minsRemaining = Math.round(progress.max - progress.value);
+
+	        if (contentBox.top > midPoint) {
+	            progress.value = 0;
+	        }
+
+	        if (contentBox.top < midPoint) {
+	            progress.value = progress.max;
+	        }
+
+	        if (contentBox.top <= midPoint && contentBox.bottom >= midPoint) {
+	            progress.value =
+	                (progress.max * Math.abs(contentBox.top - midPoint)) /
+	                contentBox.height;
+	        }
+
+	        window.requestAnimationFrame(frameListening);
+	    };
+
+	    window.requestAnimationFrame(frameListening);
+	};
+
+	readingProgress(".post-full-content", ".reading-progress-bar");
+
 
 	var disqus_config = function () {
 		this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
