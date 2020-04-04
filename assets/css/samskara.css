@@ -9776,6 +9776,10 @@ button.close {
   font-size: .8rem;
 }
 
+.single-article .article-content .post-tags .share-buttons .whatsapp {
+  background-color: #03a9f4;
+}
+
 .single-article .article-content .post-tags .share-buttons .twitter {
   background-color: #03a9f4;
 }
