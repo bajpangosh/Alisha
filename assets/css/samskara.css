@@ -9687,7 +9687,7 @@ button.close {
 
 .single-article .article-content .author-meta .inner .author-info .author-name,.single-article .article-content .post-content h1,.single-article .article-content .post-content h2,.single-article .article-content .post-content h3,.single-article .article-content .post-content h4,.single-article .article-content .post-content h5,.single-article .article-content .post-content h6 {
   font-family: 'Manjari',sans-serif;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .single-article .article-content .post-content p:nth-child(1) {
