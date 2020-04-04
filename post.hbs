@@ -1,7 +1,7 @@
 {{!< default}}
 {{!-- The tag above means: insert everything in this file
 into the {body} of the default.hbs template --}}
-
+<progress class="reading-progress-bar"></progress>
 
 <main id="article-section" class="single-article bg-light">
 	{{#post}}
@@ -15,7 +15,7 @@ into the {body} of the default.hbs template --}}
 			<div class="container">
 				<div class="controls">
 					<h1 class="post-title">{{title}}</h1>
-<progress class="reading-progress-bar"></progress>
+
 					<p class="post-meta">{{#primary_author}}<a href="{{url absolute='true'}}">{{name}}</a>{{/primary_author}} on {{#primary_tag}}<a href="{{url absolute='true'}}">{{name}}</a>{{/primary_tag}} | {{date published_at format="DD MMM YYYY"}} | {{reading_time}} </p>
 				</div>
 			</div>
