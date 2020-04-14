@@ -51,14 +51,14 @@ into the {body} of the default.hbs template --}}
 					{{/is}}
 
 					<div class="no-mobile">
-						
+
 					{{!-- This will output the twitter card --}}
 					{{> "twitter-card"}}
 
 					</div>
 
 					{{!-- This tag will output only if subscribers feature is enabled --}}
-					{{> "subscribe-card"}}
+					{{> subscription_form}}
 
 				</div>
 			</div>
